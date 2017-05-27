@@ -1,0 +1,49 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd": ["make"],
+			"name": "ARM build",
+			"working_dir": "${project_path}",
+			"file_regex": "^(^\\S.*\\.\\w+):(\\d+):(\\d+): (\\w+ ?\\w+?): (.*)$"
+		}
+	],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+
+	// Настройки линтеров
+	"SublimeLinter":
+	{
+		"linters":
+		{
+			"clang":
+			{
+				// Каталоги, в которых находятся файлы, анализируемые линтером
+				"include_dirs":
+				[
+					"${project}/FreeRTOS",
+					"${project}/Libraries/CMSIS",
+					"${project}/Libraries/MPU9250",
+					"${project}/Libraries/STM32F4xx_StdPeriph_Driver",
+					"${project}/Libraries/syscall",
+					"${project}/config",
+					"${project}/directives",
+					"${project}/tasks",
+					"${project}/hardware"
+				],
+				// Дополнительные флаги Clang
+				"extra_flags":"-DSTM32F4XX"
+			}
+		}
+	},
+	"settings":
+	{
+		"sublimegdb_workingdir": "${project_path:binary/}",
+		"sublimegdb_commandline": "arm-none-eabi-gdb --interpreter=mi *.elf"
+	}
+}

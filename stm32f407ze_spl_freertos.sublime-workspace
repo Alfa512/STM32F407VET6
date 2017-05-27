@@ -1,0 +1,960 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"GPIO_Mode_A",
+				"GPIO_Mode_AF\t(stm32f4xx_gpio.h)"
+			],
+			[
+				"GPIO_W",
+				"GPIO_WriteBit"
+			],
+			[
+				"stm32f4xx_s",
+				"stm32f4xx_spi.h"
+			],
+			[
+				"GPIO_PuPd",
+				"GPIO_PuPd_NOPULL"
+			],
+			[
+				"GPIO_T",
+				"GPIO_OType_PP"
+			],
+			[
+				"GPIO_Speed_",
+				"GPIO_Speed_2MHz\t(stm32f4xx_gpio.h)"
+			],
+			[
+				"LPC",
+				"LPC2368\t(PinNames.h)"
+			],
+			[
+				"LP",
+				"LPC11U\t(PinNames.h)"
+			],
+			[
+				"acc",
+				"accessFlag"
+			],
+			[
+				"ic2",
+				"i2cTask.h\t(i2cTask.c)"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"in",
+				"inside\t(i2cTask.c)"
+			],
+			[
+				"GPIO_Rea",
+				"GPIO_ReadInputDataBit\t(stm32f4xx_gpio.c)"
+			],
+			[
+				"RTC_",
+				"RTC_Hours"
+			],
+			[
+				"SSD130",
+				"SSD1306_COLOR_t\t(ssd1306.c)"
+			],
+			[
+				"SS",
+				"SSD1306_DrawRectangle\t(ssd1306.c)"
+			],
+			[
+				"SSD1306_Ci",
+				"SSD1306_DrawCircle\t(ssd1306.c)"
+			],
+			[
+				"curre",
+				"currentTimeString"
+			],
+			[
+				"error",
+				"errorMessage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tasks/src/blinkTask.c",
+			"settings":
+			{
+				"buffer_size": 7139,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c",
+			"settings":
+			{
+				"buffer_size": 24588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tasks/inc/blinkTask.h",
+			"settings":
+			{
+				"buffer_size": 845,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/src/i2cTask.c",
+			"settings":
+			{
+				"buffer_size": 4224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/inc/i2cTask.h",
+			"settings":
+			{
+				"buffer_size": 609,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Libraries/ssd1306/src/ssd1306.c",
+			"settings":
+			{
+				"buffer_size": 11829,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 2076,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Libraries/MPU9250/inc/MPU9250.h",
+			"settings":
+			{
+				"buffer_size": 9238,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Libraries/MPU9250/src/MPU9250.c",
+			"settings":
+			{
+				"buffer_size": 24075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c",
+			"settings":
+			{
+				"buffer_size": 52952,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h",
+			"settings":
+			{
+				"buffer_size": 31223,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Libraries/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+			"settings":
+			{
+				"buffer_size": 907579,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 4483,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "ARM build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"ARM build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"ARM build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "Install ",
+		"selected_items":
+		[
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"installPa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/CMSIS/Device/ST",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/CMSIS/Device/ST/STM32F4xx",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250/inc",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250/src",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/STM32F4xx_StdPeriph_Driver",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/ssd1306",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/directives",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/inc",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/src"
+	],
+	"file_history":
+	[
+		"/home/alfa/Downloads/DSLogic-v0.4/DSLogic-gui/pv/view/view.h",
+		"/home/alfa/Downloads/DSLogic-v0.4/DSLogic-gui/CMakeLists.txt",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250/inc/MPU9250.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_spi.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/stm32f407ze_spl_freertos.sublime-project",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250/main.cpp",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/mbed/platform/platform.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/mbed/hal/gpio_api.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/mbed/platform/mbed_interface.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/mbed/PinNames.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/mbed/Base.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/MPU9250/MPU9250.h",
+		"/home/alfa/.config/sublime-text-3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/inc/blinkTask.h",
+		"/home/alfa/.config/sublime-text-3/Packages/User/SublimeGDB.sublime-settings",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/ssd1306/src/fonts.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/ssd1306/inc/ssd1306.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/ssd1306/inc/fonts.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/ssd1306/src/ssd1306.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/LICENSE",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/src/i2cTask.c",
+		"/home/alfa/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/src/blinkTask.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/tasks/inc/i2cTask.h",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/main.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Makefile",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/FreeRTOS/timers.c",
+		"/home/alfa/STM32F407ZE_SPL_FreeRTOS/Project/STM32F4xx_StdPeriph_Examples/DAC/DAC_SignalsGeneration/main.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/tasks/inc/i2cTask.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/ssd1306/inc/ssd1306_i2c.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/ssd1306/inc/ssd1306.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/ssd1306/src/ssd1306.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/ssd1306/inc/fonts.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_rtc.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/tasks/src/i2cTask.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/ssd1306/src/ssd1306_i2c.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/config/FreeRTOSConfig.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/config/stm32f4xx_conf.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/hardware/startup_stm32f4xx.s",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Makefile",
+		"/home/haosx86/STM32F4-FreeRTOS-master/main.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/tasks/src/blinkTask.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/I2C/I2C_EEPROM/system_stm32f4xx.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/IWDG/IWDG_Example/main.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/CortexM/MPU/main.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/CortexM/MPU/main.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/CortexM/MPU/stm32_mpu.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/CortexM/MPU/stm32_mpu.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/DCMI/DCMI_CameraExample/dcmi_ov2640.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/IWDG/IWDG_Example/main.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/tasks/inc/blinkTask.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/FreeRTOS/tasks.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c",
+		"/home/haosx86/STM32F4-FreeRTOS-master/Project/STM32F4xx_StdPeriph_Examples/DCMI/DCMI_CameraExample/dcmi_ov2640.h",
+		"/home/haosx86/.config/sublime-text-3/Packages/SublimeGDB/Default.sublime-keymap",
+		"/home/haosx86/.config/sublime-text-3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/home/haosx86/STM32F4-FreeRTOS-master/stm32f407ze_spl_freertos.sublime-project",
+		"/home/haosx86/.config/sublime-text-3/Packages/User/SublimeGDB.sublime-settings",
+		"/home/haosx86/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/haosx86/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/haosx86/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/haosx86/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/haosx86/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MaxViewRate",
+			"my_clock",
+			"BITS_DLPF_CFG_188HZ",
+			"calibrate",
+			"deselect",
+			"select",
+			"calib_mag",
+			"calib_acc",
+			"set_acc_scale",
+			"read_temp",
+			"ReadRegs",
+			"ReadReg",
+			"WriteReg",
+			"set_gyro_scale",
+			"WriteReg",
+			"::",
+			"calib_gyro",
+			"my_clock",
+			"class ",
+			"class",
+			"MPU_Init",
+			"AF",
+			"GPIOA",
+			");\n",
+			"GPIOA",
+			"Настраиваем",
+			");\n",
+			"spi",
+			"GPIOx",
+			"OSPEEDR",
+			"GPIOSpeed_TypeDef",
+			"GPIO_Fast_Speed",
+			"50mh",
+			"I2C_InitTypeDef",
+			"i2c",
+			"i2c (",
+			"i2c",
+			"i2c(",
+			"i2c",
+			"inc",
+			"\",\n",
+			"c",
+			"Include",
+			"{\n",
+			"MPU9250",
+			"MPU9250_ADDRESS",
+			"I2C_SDA",
+			"i2c",
+			"SDA",
+			");\n",
+			"blinkTaskMain",
+			"  \n",
+			"warn",
+			");\n",
+			"    SSD1306_GotoXY(12, 32);\n    SSD1306_Puts(myName, &Font_11x18, SSD1306_COLOR_WHITE);",
+			"Font_",
+			"font_",
+			"font",
+			"11",
+			"18",
+			"Font_",
+			"SSD1306_DrawCircle",
+			"Font_16x26",
+			"RTC_Format_BCD",
+			"RTC_GetTime",
+			"RTC_TimeStructure",
+			"RTC_TimeTypeDef",
+			"RTC_TimeStructure",
+			"SSD1306_Putc",
+			"SSD1306_Putc(=",
+			"uint8_t ssd1306_I2C_IsDeviceConnected",
+			"uint8_t ssd1306_I2C_IsDeviceConnected(uint8_t address)",
+			"ssd1306_I2C_Start",
+			"I2C_ACK_ENABLE",
+			"25",
+			"SSD1306_WRITECOMMAND",
+			"DCMI_TIMEOUT_MAX",
+			"I2C_GenerateSTART",
+			"DMA",
+			"target extended-remote localhost:4242",
+			"tar extended-remote localhost:4242",
+			"tar extended-remote :4242",
+			"continue",
+			"dummy",
+			"trashInt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MPU9250_calibrate",
+			"MPU9250_deselect",
+			"MPU9250_select",
+			"MPU9250_calib_mag",
+			"MPU9250_calib_acc",
+			"MPU9250_set_acc_scale",
+			"MPU9250_ReadRegs",
+			"MPU9250_set_gyro_scale",
+			"MPU9250_WriteReg",
+			"_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tasks/src/blinkTask.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1700,
+								1700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 934.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16071,
+								16071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5839.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tasks/inc/blinkTask.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "tasks/src/i2cTask.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1609,
+								1609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tasks/inc/i2cTask.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Libraries/ssd1306/src/ssd1306.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4869,
+								4869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2250.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Libraries/MPU9250/inc/MPU9250.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7785,
+								7785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Libraries/MPU9250/src/MPU9250.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22502,
+								22502
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8007.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7387,
+								7387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_i2c.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23166,
+								23166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7875.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Libraries/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109140,
+								109140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21278.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stm32f407ze_spl_freertos.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Libraries/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_gpio.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
